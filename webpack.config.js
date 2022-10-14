@@ -1,6 +1,7 @@
 const path = require('path');
-const HtmlWebPackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { joinPaths } = require('@remix-run/router');
 
 module.exports = {
   entry: './src/index.js',
@@ -41,8 +42,8 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebPackPlugin({
-      template: './pubilc/index.html',
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
@@ -53,6 +54,5 @@ module.exports = {
     open: true,
     port: 3000,
     hot: true,
-    historyapiFallback: true,
   },
 };
