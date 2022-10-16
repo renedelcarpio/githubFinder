@@ -4,3 +4,12 @@
   justify-content: center;
   width: 80%;
 }
+
+@media (max-width: 770px) {
+  .repo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+}

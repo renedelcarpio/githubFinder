@@ -14,3 +14,9 @@
   flex-wrap: wrap;
   width: 80%;
 }
+
+@media (max-width: 770px) {
+  .user {
+    width: 95%;
+  }
+}

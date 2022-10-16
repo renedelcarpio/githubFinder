@@ -20,3 +20,10 @@ span {
   cursor: pointer;
   text-decoration: none;
 }
+
+@media (max-width: 770px) {
+  .repo__card {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}
