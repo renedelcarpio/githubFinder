@@ -1,6 +1,6 @@
-# gitHub Finder
+# Github Finder
 
-First you have to clone the project. After that, you have to go into the folder.
+First you have to clone the project. After that, you have to go into the folder where the project was cloned.
 
 ## Requirements
 
@@ -8,7 +8,7 @@ You must have [nodejs](https://nodejs.org/es/) installed in your pc.
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) make the installations.
+Use the package manager [npm](https://www.npmjs.com/) make the required installations.
 
 ```bash
 npm install
