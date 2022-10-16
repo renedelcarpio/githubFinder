@@ -1,0 +1,39 @@
+@import '../../index.scss';
+
+.user__card {
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  box-shadow: $box-shadow-dark-inset;
+  margin: 1rem;
+  padding: 2rem;
+  height: 15rem;
+  width: 35rem;
+  overflow: hidden;
+}
+
+.user__image {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+.user__name {
+  color: $color-cold2;
+  margin-bottom: 0.5rem;
+}
+
+.user__url {
+  color: $color-cold1;
+  cursor: pointer;
+  text-decoration: none;
+}
