@@ -1,15 +1,17 @@
-import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from '../components/Layout/Layout';
 import RepositoriesSearch from '../components/RepositoriesSearch/RepositoriesSearch';
 import UserSearch from '../components/UserSearch/UserSearch';
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/*" element={<UserSearch />} />
-        <Route path="/repositories" element={<RepositoriesSearch />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route exact path="/*" element={<UserSearch />} />
+          <Route exact path="/repo" element={<RepositoriesSearch />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   );
 };
