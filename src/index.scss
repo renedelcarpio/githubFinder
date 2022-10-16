@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+$font1: 'Poppins', sans-serif;
+
+$color-light: #ffffff;
+$color-dark1: #868686;
+$color-dark2: #2b2b2e;
+$color-cold1: #03a9f4;
+$color-cold2: #03f4cc;
+
+$background-dark: $color-dark2;
+
+$box-shadow-dark: -0.2rem -0.2rem 0.6rem rgba($color-dark1, 0.5),
+  0.2rem 0.2rem 0.6rem rgba($color-dark2, 0.05);
+$box-shadow-dark-inset: inset -0.2rem -0.2rem 0.6rem rgba($color-dark1, 0.5),
+  inset 0.2rem 0.2rem 0.6rem rgba($color-dark2, 0.05);
+
 * {
   box-sizing: border-box;
+  font-family: $font1;
   margin: 0;
   padding: 0;
 }
