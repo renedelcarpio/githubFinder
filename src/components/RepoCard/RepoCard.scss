@@ -1,0 +1,22 @@
+@import '../../index.scss';
+
+span {
+  color: $color-cold2;
+}
+
+.repo__card {
+  border-radius: 4rem;
+  box-shadow: $box-shadow-dark-inset;
+  color: $color-dark1;
+  font-size: 1.4rem;
+  margin: 1rem;
+  padding: 2rem;
+  width: 40%;
+  overflow: hidden;
+}
+
+.repo__url {
+  color: $color-cold1;
+  cursor: pointer;
+  text-decoration: none;
+}
