@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <Form/> component should match the snapshot 1`] = `
+<Fragment>
+  <h1
+    className="neon__title"
+  >
+    Github Search
+  </h1>
+  <form>
+    <input
+      placeholder="Search by user"
+    />
+    <button
+      type="submit"
+    >
+      <BiSearchAlt
+        className="search"
+      />
+    </button>
+  </form>
+</Fragment>
+`;
